@@ -21,6 +21,25 @@
 
 <body>
     <main>
+            <div class="musica">
+                <audio src="./src/audios/Liberdade-Sabo-One-Piece-Enygma.mp3" type="audio/mp3" class="musica ativa" id="musica0" autoplay loop>
+                </audio>
+                <audio src="./src/audios/Rap-do-Ace-One-Piece-PUNHOS-DE-FOGO-NERD-HITS.mp3" type="audio/mp3" id="musica1" loop>
+                </audio>
+                <audio src="./src/audios/Rap-do-Brook-One-Piece-Cano-Solo-Basara.mp3" type="audio/mp3" id="musica2" loop>
+                </audio>
+                <audio src="./src/audios/Rap-do-Chopper-One-Piece-Flores-de-Cerejeira-Enygma.mp3" type="audio/mp3" id="musica3" loop>
+                </audio>
+                <audio src="./src/audios/Rap-do-Doflamingo-One-Piece-UM-REI-NERD-HITS.mp3" type="audio/mp3" id="musica4" loop>
+                </audio>
+                <audio src="./src/audios/Rap-do-Luffy-One-Piece-REI-DOS-PIRATAS-NERD-HITS.mp3" type="audio/mp3" id="musica5" loop>
+                </audio>
+                <audio src="./src/audios/Rap-do-Sanji-One-Piece-APENAS-UM-TRAGO-NERD-HITS.mp3" type="audio/mp3" id="musica6" loop>
+                </audio>
+                <audio src="./src/audios/Rap-do-Zoro-One-Piece-O-MAIOR-ESPADACHIM-DO-MUNDO-NERD-HITS.mp3" type="audio/mp3" id="musica7" loop>
+                </audio>
+            </div>
+        
 
         <div class="carrossel">
             <img class="imagem ativa" src="./src/imagens/ace luffy 1.jpg" alt="Dragão Balerion">
@@ -38,9 +57,10 @@
                 <h1> One Piece </h1>
 
                 <p class="descricao">
-                    Um pirata que estica com o sonho de se tornar o Rei dos Piratas e encontrar o tesouro mais raro do mundo, o One Piece.
+                    Um pirata que estica com o sonho de se tornar o Rei dos Piratas e encontrar o tesouro mais raro do
+                    mundo, o One Piece.
                 </p>
-    
+
 
             </div>
 
@@ -48,7 +68,8 @@
                 <h1>Naruto</h1>
 
                 <p class="descricao">
-                    Um ninja com uma raposa selada em sua alma, e que corre o anime inteiro atrás de um Emo, o Sasuke Uchiha.
+                    Um ninja com uma raposa selada em sua alma, e que corre o anime inteiro atrás de um Emo, o Sasuke
+                    Uchiha.
                 </p>
                 <audio src=""></audio>
             </div>
@@ -57,7 +78,8 @@
                 <h1>BLACK CLOVER</h1>
 
                 <p class="descricao">
-                    No vilarejo Hage, crescem 2 irmãos com o sonho de se tornarem o mago mais forte, o Rei Mago.Enquanto um não possui qualquer magia, o outro é um prodígio.
+                    No vilarejo Hage, crescem 2 irmãos com o sonho de se tornarem o mago mais forte, o Rei Mago.Enquanto
+                    um não possui qualquer magia, o outro é um prodígio.
                 </p>
             </div>
 
@@ -65,7 +87,8 @@
                 <h1>Tokyo Revengers</h1>
 
                 <p class="descricao">
-                    Um menino que volta 13 anos no passado para salvar a sua amada, seu nome é Takemichi Hanagaki, e ele chegará no topo da Toman.
+                    Um menino que volta 13 anos no passado para salvar a sua amada, seu nome é Takemichi Hanagaki, e ele
+                    chegará no topo da Toman.
             </div>
 
             <div class="informacoes">
@@ -80,7 +103,8 @@
                 <h1>Jujutsu Kaisen</h1>
 
                 <p class="descricao">
-                    Yuji Itadori é um garoto que após comer o dedo de Sukuna, o Rei das Maldições, se torna o seu receptáculo. Com a ajuda dos feiticeiros jujutsu e Gojo se torna mais forte.
+                    Yuji Itadori é um garoto que após comer o dedo de Sukuna, o Rei das Maldições, se torna o seu
+                    receptáculo. Com a ajuda dos feiticeiros jujutsu e Gojo se torna mais forte.
                 </p>
             </div>
 
@@ -88,7 +112,9 @@
                 <h1>Dragon Ball</h1>
 
                 <p class="descricao">
-                    A série segue as aventuras do protagonista, Son Goku, desde sua infância até a idade adulta enquanto ele treina artes marciais e explora o mundo em busca de sete esferas conhecidas como as Esferas do Dragão, que convocam um dragão que concede um desejo quando reunidas.
+                    A série segue as aventuras do protagonista, Son Goku, desde sua infância até a idade adulta enquanto
+                    ele treina artes marciais e explora o mundo em busca de sete esferas conhecidas como as Esferas do
+                    Dragão, que convocam um dragão que concede um desejo quando reunidas.
                 </p>
             </div>
 
@@ -100,19 +126,41 @@
             </div>
 
             <div class="botoes-carrossel">
-                <button class="botao selecionado"></button>
-                <button class="botao"></button>
-                <button class="botao"></button>
-                <button class="botao"></button>
-                <button class="botao"></button>
-                <button class="botao"></button>
-                <button class="botao"></button>
-                <button class="botao"></button>
+                <button onclick="tocarMusica(0)" class="botao selecionado">
+                </button>
+                <button onclick="tocarMusica(1)" class="botao">
+                </button>
+                <button onclick="tocarMusica(2)" class="botao">
+                </button>
+                <button onclick="tocarMusica(3)" class="botao">
+                </button>
+                <button onclick="tocarMusica(4)" class="botao">
+                </button>
+                <button onclick="tocarMusica(5)" class="botao">
+                </button>
+                <button onclick="tocarMusica(6)" class="botao">
+                </button>
+                <button onclick="tocarMusica(7)" class="botao">
+                </button>
             </div>
         </div>
     </main>
 
     <script src="./src/js/index.js"></script>
+    <script>
+        function tocarMusica(indice) {
+            pausarTodas();
+            var musica = document.getElementById('musica' + indice);
+            musica.play();
+        }
+
+        function pausarTodas() {
+            for (var i = 0; i < 8; i++) {
+                var musica = document.getElementById('musica' + i);
+                musica.pause();
+            }
+        }
+    </script>
 
 </body>
 
